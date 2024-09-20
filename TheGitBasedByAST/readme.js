@@ -1,5 +1,6 @@
 /**
- * 一种基于AST抽象语法树存储数据的git
- *  上传时编译成AST相关数据 拉去代码后根据本地配置翻译成相关代码
- *  解决不同编码习惯带来的问题 或许可以跨语言构建代码
+ * 基于抽象语法树(AST)的Git
+ * The Git Based By Abstract Syntax Tree(AST)
+ * 概念：通过AST将源代码转换成通用的'类型格式'存储在Git，使用时可以基于当前使用习惯编译为不同风格的代码
+ * Concept: Convert source code into a universal 'type format' through AST and store it in Git. When used, it can be compiled into different styles of code based on current usage habits
  * */
